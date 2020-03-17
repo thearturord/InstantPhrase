@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'bebasNeue';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/BebasNeue-Regular.otf');
+}
+
+.bebasNeue {
+  font-family: 'bebasNeue';
+  visibility: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+@font-face {
+  font-family: 'Shellia';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Shellia.ttf');
+}
+
+.Shellia {
+  font-family: 'Shellia';
+  visibility: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+@font-face {
+  font-family: 'helvetica';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../fonts/HelveticaNeueLTStdBd.otf');
+}
+
+.helvetica {
+  font-family: 'helvetica';
+  visibility: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+@font-face {
+  font-family: 'helveticaCn';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/HelveticaNeueLTStdCn.otf');
+}
+
+.helveticaCn {
+  font-family: 'helvetica';
+  visibility: hidden;
+  position: absolute;
+  z-index: -1;
+}

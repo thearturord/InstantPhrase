@@ -1,0 +1,15 @@
+# mod_rewrite stars here
+
+RewriteEngine on
+
+# do not change any folder name or direction
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Check for PHP
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+# display PHP
+
+RewriteRule ^(.*)$ $1.php [NC,L]
